@@ -12,7 +12,7 @@ const CountdownPage = () => {
 
   let interval;
   const startTimer = () => {
-    const countDownDate = new Date("April 17,2023").getTime();
+    const countDownDate = new Date("September 8, 2024 06:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
